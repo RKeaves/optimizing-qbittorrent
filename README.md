@@ -1,8 +1,8 @@
 # Optimizing qBittorrent For Speed  
-*Last updated: 22 December 2014*  
-*Last updated by site.editor on 22. December 2014 - 04:02*
 
-![qBittorrent Icon](https://web.archive.org/web/20191218094638im_/https://www.techsupportalert.com/files/images/pc_freeware/free_online_books/optimizing-qbittorrent-speed-qbittorrent-icon.jpg)
+<p align="center">
+  <img src="https://web.archive.org/web/20191218094638im_/https://www.techsupportalert.com/files/images/pc_freeware/free_online_books/optimizing-qbittorrent-speed-qbittorrent-icon.jpg" alt="qBittorrent Icon">
+</p>
 
 ---
 
@@ -19,6 +19,8 @@ Key principles:
 - Adjust settings based on upload capacity  
 
 **Warning:** Avoid third-party "optimization" tools - they often contain malware.
+
+> **Additional Information:** Understanding these optimization steps is crucial for ensuring smooth torrenting. By following this guide, you not only improve download speeds but also enhance overall network security and stability.
 
 ---
 
@@ -38,6 +40,8 @@ The basic principles for optimizing a BitTorrent client like qBittorrent for spe
 
 If you are not using qBittorrent, there are several other specific guides for other clients and a general guide available titled “Optimizing BitTorrent Clients.”
 
+> **Tip:** Always verify your changes on a test server before applying them to your main system to prevent unintended disruptions.
+
 ---
 
 ## Accessing Options
@@ -46,10 +50,16 @@ Access settings in qBittorrent through:
 - **Menu:** Tools > Options  
 - **Toolbar:** Click the Options icon
 
-![Options Menu](https://web.archive.org/web/20191218094638im_/https://www.techsupportalert.com/files/images/pc_freeware/free_online_books/optimizing-qbittorrent-speed-qbittorrent-tools-options.jpg)  
-![Toolbar Icon](https://web.archive.org/web/20191218094638im_/https://www.techsupportalert.com/files/images/pc_freeware/free_online_books/optimizing-qbittorrent-speed-qbittorrent-toolbar-options.jpg)
+<p align="center">
+  <img src="https://web.archive.org/web/20191218094638im_/https://www.techsupportalert.com/files/images/pc_freeware/free_online_books/optimizing-qbittorrent-speed-qbittorrent-tools-options.jpg" alt="Options Menu">
+</p>
+<p align="center">
+  <img src="https://web.archive.org/web/20191218094638im_/https://www.techsupportalert.com/files/images/pc_freeware/free_online_books/optimizing-qbittorrent-speed-qbittorrent-toolbar-options.jpg" alt="Toolbar Icon">
+</p>
 
 *Additional note:* The Options screens can also be accessed via “Tools” (then Options) in the menus on the upper left of qBittorrent or via the Options icon up top.
+
+> **Reminder:** Familiarize yourself with these settings as they form the basis for most of the optimization steps in this guide.
 
 ---
 
@@ -63,9 +73,13 @@ Access settings in qBittorrent through:
 2. **Locate your current port:**  
    **Tools > Options > Connection** in qBittorrent.
 
-![Port Settings](https://web.archive.org/web/20191218094638im_/https://www.techsupportalert.com/files/images/pc_freeware/free_online_books/optimizing-qbittorrent-speed-qbittorrent-port-location.jpg)
+<p align="center">
+  <img src="https://web.archive.org/web/20191218094638im_/https://www.techsupportalert.com/files/images/pc_freeware/free_online_books/optimizing-qbittorrent-speed-qbittorrent-port-location.jpg" alt="Port Settings">
+</p>
 
 **Recommended range:** 49160-65534
+
+> **Additional Tip:** Choosing the correct port not only improves connection stability but also prevents conflicts with other services running on your network.
 
 ---
 
@@ -78,7 +92,7 @@ Before adjusting internal settings, first check if your communications are block
 - The safest choice is a port in the 49160-65534 range. (This range used to be 49152-65534, but newer Windows versions may reserve some of those ports.)  
 - **Windows users:** You can check active ports by running `netstat -a > C:\log.txt` from the command prompt and reviewing which ports are in use.
 
-![Port Number Location](optimizing-qbittorrent-speed-qbittorrent-port-number-location)
+> **Important:** Always verify that the port you choose is not being used by another application to avoid conflicts.
 
 ---
 
@@ -88,6 +102,8 @@ Before adjusting internal settings, first check if your communications are block
 
 - Allow both TCP and UDP for the qBittorrent port.  
 - Refer to guides on [PortForward.com](https://portforward.com) or your firewall’s help file.
+
+> **Note:** Proper firewall configuration ensures that external peers can connect to your qBittorrent client.
 
 ### Router Configuration
 
@@ -103,8 +119,12 @@ There are two methods:
 
 Enable UPnP in both your router and in qBittorrent:
 - In qBittorrent, go to **Tools > Options > Connection**.
-  
-![UPnP Settings](https://web.archive.org/web/20191218094638im_/https://www.techsupportalert.com/files/images/pc_freeware/free_online_books/optimizing-qbittorrent-speed-qbittorrent-upnp.jpg)
+
+<p align="center">
+  <img src="https://web.archive.org/web/20191218094638im_/https://www.techsupportalert.com/files/images/pc_freeware/free_online_books/optimizing-qbittorrent-speed-qbittorrent-upnp.jpg" alt="UPnP Settings">
+</p>
+
+> **Tip:** While UPnP offers convenience, manual configuration is often more secure.
 
 ---
 
@@ -130,6 +150,8 @@ For manual forwarding, disable UPnP (or NAT-PMP) in qBittorrent, use a static IP
 *Additional text reference:*  
 > Click “Re-Test Port Success” after making changes. If there’s an error, re-do the steps or seek help in forums. (Ensure any torrent client, like Halite, is running during re-tests.)
 
+> **Extra Note:** Document your router and firewall settings before making changes so you can easily revert if necessary.
+
 ---
 
 ## Adjusting Internal Settings
@@ -137,6 +159,8 @@ For manual forwarding, disable UPnP (or NAT-PMP) in qBittorrent, use a static IP
 ### Basic Internal Settings
 
 The most important setting is to cap upload in qBittorrent to about 80% of your overall upload capacity. If the upload cap is set too high (or unlimited), download speeds may suffer due to interference with outgoing communications (acknowledgment signals, resend requests, etc.). Other settings are adjusted to distribute your upload effectively among peers.
+
+> **Additional Insight:** Keeping the upload cap slightly lower than your maximum upload speed can prevent congestion and ensure that incoming data is processed without delay.
 
 ---
 
@@ -147,13 +171,17 @@ The most important setting is to cap upload in qBittorrent to about 80% of your 
 1. **Determine your upload speed:**  
    Use [Speedtest.net](https://speedtest.net).  
    - Before testing, press the **Settings** button on Speedtest.net, navigate to “Global Settings,” set “Speed Measurement” to kilobytes, and click “Save.”
-   
-   ![Speedtest Settings](https://web.archive.org/web/20191218094638im_/https://www.techsupportalert.com/files/images/pc_freeware/free_online_books/optimizing-qbittorrent-speed-speedtest-net-kilobytes-settings.jpg)
-   
+
+<p align="center">
+  <img src="https://web.archive.org/web/20191218094638im_/https://www.techsupportalert.com/files/images/pc_freeware/free_online_books/optimizing-qbittorrent-speed-speedtest-net-kilobytes-settings.jpg" alt="Speedtest Settings">
+</p>
+
 2. **Take multiple tests:**  
    Stop all other internet activity to obtain an accurate average upload speed. Results will be shown in kB/s.
 
 *Note:* Some ISPs (e.g., Comcast with PowerBoost) may display inflated upload speeds. In such cases, actual speeds may be around 60% of the test result. For example, if the test shows 200 kB/s, the real upload may be closer to 120 kB/s.
+
+> **Extra Tip:** Document your test results to track improvements after optimization.
 
 #### Calculator Settings
 
@@ -161,21 +189,49 @@ Use the [Azureus Upload Settings Calculator](http://infinite-source.de/az/az-cal
 - Enter your average upload speed (in kB/s) in the calculator.
 - The calculator will provide recommended figures for:
   1. **Speed Settings (Upload Limit)**  
-     ![Upload Limit](https://web.archive.org/web/20191218094638im_/https://www.techsupportalert.com/files/images/pc_freeware/free_online_books/optimizing-qbittorrent-speed-qbittorrent-upload-speed-entry.jpg)
-     
+
+<p align="center">
+  <img src="https://web.archive.org/web/20191218094638im_/https://www.techsupportalert.com/files/images/pc_freeware/free_online_books/optimizing-qbittorrent-speed-calculator-kBs-entry.jpg" alt="Upload Limit">
+</p>
+
   2. **Connections (Upload Slots)**  
-     ![Connections](https://web.archive.org/web/20191218094638im_/https://www.techsupportalert.com/files/images/pc_freeware/free_online_books/optimizing-qbittorrent-speed-qbittorrent-connections-upload-slots.jpg)
-     
+
+<p align="center">
+  <img src="https://web.archive.org/web/20191218094638im_/https://www.techsupportalert.com/files/images/pc_freeware/free_online_books/optimizing-qbittorrent-speed-qbittorrent-calculator-upload-speed-setting.jpg" alt="Connections">
+</p>
+
   3. **Queueing (Max Active Torrents)**  
-     ![Queueing](https://web.archive.org/web/20191218094638im_/https://www.techsupportalert.com/files/images/pc_freeware/free_online_books/optimizing-qbittorrent-speed-qbittorrent-queueing-entry.jpg)
+
+<p align="center">
+  <img src="https://web.archive.org/web/20191218094638im_/https://www.techsupportalert.com/files/images/pc_freeware/free_online_books/optimizing-qbittorrent-speed-qbittorrent-calculator-connections-upload-slots.jpg" alt="Queueing 1">
+</p>
+<p align="center">
+  <img src="https://web.archive.org/web/20191218094638im_/https://www.techsupportalert.com/files/images/pc_freeware/free_online_books/optimizing-qbittorrent-speed-qbittorrent-calculator-queueing.jpg" alt="Queueing 2">
+</p>
+
+> **Remember:** Always use the recommended values from the calculator to avoid arbitrary configurations.
 
 #### Inputting Calculator Results
 
-- In qBittorrent, set the **Upload Limit** under **Tools > Options > Speed** (leave the download limit unticked).  
-- Adjust **Connections/Upload Slots** under **Tools > Options > Connection**.  
+- In qBittorrent, set the **Upload Limit** under **Tools > Options > Speed** (leave the download limit unticked).
+
+<p align="center">
+  <img src="https://web.archive.org/web/20191218094638im_/https://www.techsupportalert.com/files/images/pc_freeware/free_online_books/optimizing-qbittorrent-speed-qbittorrent-upload-speed-entry.jpg" alt="Upload Limit Setting">
+</p>
+
+- Adjust **Connections/Upload Slots** under **Tools > Options > Connection**.
+
+<p align="center">
+  <img src="https://web.archive.org/web/20191218094638im_/https://www.techsupportalert.com/files/images/pc_freeware/free_online_books/optimizing-qbittorrent-speed-qbittorrent-connections-upload-slots.jpg" alt="Connections Setting">
+</p>
+
 - Configure **Queueing** under **Tools > Options > BitTorrent** to match the recommended "Max active torrents" from the calculator.
 
-*Reminder:* Do not use arbitrary numbers—use the calculator’s recommendations.
+<p align="center">
+  <img src="https://web.archive.org/web/20191218094638im_/https://www.techsupportalert.com/files/images/pc_freeware/free_online_books/optimizing-qbittorrent-speed-qbittorrent-queueing-entry.jpg" alt="Queueing Setting">
+</p>
+
+> **Extra Note:** Revisiting these settings after a few days of usage can help fine-tune performance even further.
 
 ---
 
@@ -187,7 +243,8 @@ Enable the following in **Tools > Options > BitTorrent**:
 - ✅ Local Peer Discovery  
 - ✅ Encryption (Allow legacy connections)
 
-![Advanced Settings](https://web.archive.org/web/20191218094638im_/https://www.techsupportalert.com/files/images/pc_freeware/free_online_books/optimizing-qbittorrent-speed-qbittorrent-dht-pex-lsd-encryption.jpg)
+
+> **Additional Information:** These settings enhance your ability to connect to a larger pool of peers and seeds, thus improving overall download speeds.
 
 ---
 
@@ -200,7 +257,12 @@ Having the proper peer sources enabled helps increase download speeds by finding
 
 These settings are located in **Tools > Options > BitTorrent**.
 
-![DHT, PEX, LSD, and Encryption Settings](optimizing-qbittorrent-speed-qbittorrent-dht-pex-lsd-encryption-settings)
+<p align="center">
+  <img src="https://web.archive.org/web/20191218094638im_/https://www.techsupportalert.com/files/images/pc_freeware/free_online_books/optimizing-qbittorrent-speed-qbittorrent-dht-pex-lsd-encryption.jpg" alt="Advanced Settings">
+</p>
+
+
+> **Tip:** Enabling these features can significantly increase the number of available peers, leading to faster downloads.
 
 ---
 
@@ -213,6 +275,8 @@ The general rule is to choose torrents that have a high seed-to-peer ratio.
 For example, a torrent with 30 seeders and 70 peers (approximately 30% seeders) will generally be faster than one with 500 seeders and 2500 peers (20% seeders) because the average upload capacity available is higher.
 
 For more detailed information, see the guide on **Good Torrents**.
+
+> **Additional Tip:** Look for torrents with active comments and recent activity to ensure that the seeds are online and available.
 
 ---
 
@@ -228,6 +292,8 @@ For more detailed information, see the guide on **Good Torrents**.
 2. Port test status (Success/Error)  
 3. ISP details
 
+> **Reminder:** Detailed logs and screenshots of your settings can greatly assist in diagnosing and resolving issues.
+
 ---
 
 ## Additional Resources
@@ -236,6 +302,10 @@ For more detailed information, see the guide on **Good Torrents**.
 2. [Torrent Search Sites](https://web.archive.org/web/20191218094638/http://www.techsupportalert.com/content/searching-torrents.htm)  
 3. [Official Forums](https://web.archive.org/web/20191218094638/http://www.techsupportalert.com/freeware-forum/)
 
+> **Extra Resource:** Bookmark these links for quick reference whenever you need to revisit the fundamentals of torrent optimization.
+
 ---
 
 *Archived from [TechSupportAlert](https://web.archive.org/web/20191218094638/https://www.techsupportalert.com/optimizing-qbittorrent-speed)*
+
+> **Final Reminder:** Always test new settings on a test server before applying them to your production environment. Your system’s stability and performance depend on careful configuration and regular monitoring.
