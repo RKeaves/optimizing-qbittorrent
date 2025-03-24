@@ -307,5 +307,3 @@ For more detailed information, see the guide on **Good Torrents**.
 ---
 
 *Archived from [TechSupportAlert](https://web.archive.org/web/20191218094638/https://www.techsupportalert.com/optimizing-qbittorrent-speed)*
-
-> **Final Reminder:** Always test new settings on a test server before applying them to your production environment. Your system’s stability and performance depend on careful configuration and regular monitoring.
