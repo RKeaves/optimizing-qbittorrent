@@ -1,7 +1,7 @@
 # Optimizing qBittorrent For Speed  
 
 <p align="center">
-  <img src="https://web.archive.org/web/20191218094638im_/https://www.techsupportalert.com/files/images/pc_freeware/free_online_books/optimizing-qbittorrent-speed-qbittorrent-icon.jpg" alt="qBittorrent Icon">
+  <img src="https://ptpimg.me/o4pg1k.png" alt="qBittorrent Icon">
 </p>
 
 ---
@@ -51,10 +51,10 @@ Access settings in qBittorrent through:
 - **Toolbar:** Click the Options icon
 
 <p align="center">
-  <img src="https://web.archive.org/web/20191218094638im_/https://www.techsupportalert.com/files/images/pc_freeware/free_online_books/optimizing-qbittorrent-speed-qbittorrent-tools-options.jpg" alt="Options Menu">
+  <img src="https://ptpimg.me/ny20u7.jpg" alt="Options Menu">
 </p>
 <p align="center">
-  <img src="https://web.archive.org/web/20191218094638im_/https://www.techsupportalert.com/files/images/pc_freeware/free_online_books/optimizing-qbittorrent-speed-qbittorrent-toolbar-options.jpg" alt="Toolbar Icon">
+  <img src="https://ptpimg.me/9iye10.jpg" alt="Toolbar Icon">
 </p>
 
 *Additional note:* The Options screens can also be accessed via “Tools” (then Options) in the menus on the upper left of qBittorrent or via the Options icon up top.
@@ -74,7 +74,7 @@ Access settings in qBittorrent through:
    **Tools > Options > Connection** in qBittorrent.
 
 <p align="center">
-  <img src="https://web.archive.org/web/20191218094638im_/https://www.techsupportalert.com/files/images/pc_freeware/free_online_books/optimizing-qbittorrent-speed-qbittorrent-port-location.jpg" alt="Port Settings">
+  <img src="https://ptpimg.me/e6376h.jpg" alt="Port Settings">
 </p>
 
 **Recommended range:** 49160-65534
