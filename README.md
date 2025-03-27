@@ -191,22 +191,24 @@ Use the [Azureus Upload Settings Calculator](http://infinite-source.de/az/az-cal
   1. **Speed Settings (Upload Limit)**  
 
 <p align="center">
-  <img src="https://web.archive.org/web/20191218094638im_/https://www.techsupportalert.com/files/images/pc_freeware/free_online_books/optimizing-qbittorrent-speed-calculator-kBs-entry.jpg" alt="Upload Limit">
+  <img src="https://i.ibb.co/hx01dJZ1/optimizing-qbittorrent-speed-calculator-k-Bs-entry.jpg" alt="Upload Limit">
+</p>
+
+<p align="center">
+  <img src="https://i.ibb.co/8n9rBTJS/optimizing-qbittorrent-speed-qbittorrent-calculator-upload-speed-setting.jpg" alt="Connections">
 </p>
 
   2. **Connections (Upload Slots)**  
 
 <p align="center">
-  <img src="https://web.archive.org/web/20191218094638im_/https://www.techsupportalert.com/files/images/pc_freeware/free_online_books/optimizing-qbittorrent-speed-qbittorrent-calculator-upload-speed-setting.jpg" alt="Connections">
+  <img src="https://i.ibb.co/bt48Gsy/optimizing-qbittorrent-speed-qbittorrent-calculator-connections-upload-slots.jpg" alt="Queueing 1">
 </p>
 
   3. **Queueing (Max Active Torrents)**  
 
+
 <p align="center">
-  <img src="https://web.archive.org/web/20191218094638im_/https://www.techsupportalert.com/files/images/pc_freeware/free_online_books/optimizing-qbittorrent-speed-qbittorrent-calculator-connections-upload-slots.jpg" alt="Queueing 1">
-</p>
-<p align="center">
-  <img src="https://web.archive.org/web/20191218094638im_/https://www.techsupportalert.com/files/images/pc_freeware/free_online_books/optimizing-qbittorrent-speed-qbittorrent-calculator-queueing.jpg" alt="Queueing 2">
+  <img src="https://i.ibb.co/PGkxQpBC/optimizing-qbittorrent-speed-qbittorrent-calculator-queueing.jpg" alt="Queueing 2">
 </p>
 
 > **Remember:** Always use the recommended values from the calculator to avoid arbitrary configurations.
@@ -216,19 +218,19 @@ Use the [Azureus Upload Settings Calculator](http://infinite-source.de/az/az-cal
 - In qBittorrent, set the **Upload Limit** under **Tools > Options > Speed** (leave the download limit unticked).
 
 <p align="center">
-  <img src="https://web.archive.org/web/20191218094638im_/https://www.techsupportalert.com/files/images/pc_freeware/free_online_books/optimizing-qbittorrent-speed-qbittorrent-upload-speed-entry.jpg" alt="Upload Limit Setting">
+  <img src="https://i.ibb.co/mVLGzL64/optimizing-qbittorrent-speed-qbittorrent-upload-speed-entry.jpg" alt="Upload Limit Setting">
 </p>
 
 - Adjust **Connections/Upload Slots** under **Tools > Options > Connection**.
 
 <p align="center">
-  <img src="https://web.archive.org/web/20191218094638im_/https://www.techsupportalert.com/files/images/pc_freeware/free_online_books/optimizing-qbittorrent-speed-qbittorrent-connections-upload-slots.jpg" alt="Connections Setting">
+  <img src="https://i.ibb.co/VpMsTG6S/optimizing-qbittorrent-speed-qbittorrent-connections-upload-slots.jpg" alt="Connections Setting">
 </p>
 
 - Configure **Queueing** under **Tools > Options > BitTorrent** to match the recommended "Max active torrents" from the calculator.
 
 <p align="center">
-  <img src="https://web.archive.org/web/20191218094638im_/https://www.techsupportalert.com/files/images/pc_freeware/free_online_books/optimizing-qbittorrent-speed-qbittorrent-queueing-entry.jpg" alt="Queueing Setting">
+  <img src="https://i.ibb.co/Zp09jpN1/optimizing-qbittorrent-speed-qbittorrent-queueing-entry.jpg" alt="Queueing Setting">
 </p>
 
 > **Extra Note:** Revisiting these settings after a few days of usage can help fine-tune performance even further.
@@ -258,7 +260,7 @@ Having the proper peer sources enabled helps increase download speeds by finding
 These settings are located in **Tools > Options > BitTorrent**.
 
 <p align="center">
-  <img src="https://web.archive.org/web/20191218094638im_/https://www.techsupportalert.com/files/images/pc_freeware/free_online_books/optimizing-qbittorrent-speed-qbittorrent-dht-pex-lsd-encryption.jpg" alt="Advanced Settings">
+  <img src="https://i.ibb.co/9mmtPgLn/optimizing-qbittorrent-speed-qbittorrent-dht-pex-lsd-encryption.jpg" alt="Advanced Settings">
 </p>
 
 
