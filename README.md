@@ -121,7 +121,7 @@ Enable UPnP in both your router and in qBittorrent:
 - In qBittorrent, go to **Tools > Options > Connection**.
 
 <p align="center">
-  <img src="https://web.archive.org/web/20191218094638im_/https://www.techsupportalert.com/files/images/pc_freeware/free_online_books/optimizing-qbittorrent-speed-qbittorrent-upnp.jpg" alt="UPnP Settings">
+  <img src="https://i.ibb.co/35x3ckZV/optimizing-qbittorrent-speed-qbittorrent-upnp.jpg" alt="UPnP Settings">
 </p>
 
 > **Tip:** While UPnP offers convenience, manual configuration is often more secure.
@@ -173,7 +173,7 @@ The most important setting is to cap upload in qBittorrent to about 80% of your 
    - Before testing, press the **Settings** button on Speedtest.net, navigate to “Global Settings,” set “Speed Measurement” to kilobytes, and click “Save.”
 
 <p align="center">
-  <img src="https://web.archive.org/web/20191218094638im_/https://www.techsupportalert.com/files/images/pc_freeware/free_online_books/optimizing-qbittorrent-speed-speedtest-net-kilobytes-settings.jpg" alt="Speedtest Settings">
+  <img src="https://i.ibb.co/B2zmWvmR/optimizing-qbittorrent-speed-speedtest-net-kilobytes-settings.jpg" alt="Speedtest Settings">
 </p>
 
 2. **Take multiple tests:**  
